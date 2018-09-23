@@ -1,0 +1,11 @@
+spring:
+  application.name: srv-1
+
+server:
+  port: 8081
+
+opentracing:
+    jaeger:
+      log-spans: false
+      udp-sender.host: localhost
+      udp-sender.port: 6831
